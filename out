@@ -2,51 +2,20 @@ Valitator's own by ored95
 
 Data: Genesis block
 Previous hash: 
-Hash: 29b4f27c76066fc0c3b4ef7617216202930ed69e99e42aa94da0565254852350
+Hash: 2f735efd0acc82cdeaa54a7ccc69ec93585b5fd2322cfabdb34882c8afd67763
 Nonce: 0
 Time: 0
 
-Data: Binh Nguyen
-Previous hash: 29b4f27c76066fc0c3b4ef7617216202930ed69e99e42aa94da0565254852350
-Hash: ffffc01f4853d3138074aab36739088f75cc9e4c1834a8b592e1f915905efc47
-Nonce: 145286
-Time: 0:00:00.232051
+Data: [{'from': 'jame', 'to': 'ored95', 'amount': 1000}, {'from': 'ored95', 'to': 'alex', 'amount': 100}, {'from': 'ored95', 'to': 'john wick', 'amount': 500}, {'from': '', 'to': 'ored95', 'amount': 300}]
+Previous hash: 2f735efd0acc82cdeaa54a7ccc69ec93585b5fd2322cfabdb34882c8afd67763
+Hash: ffffc4ea892542257e22490550cc9e190f95029071f768d0c635020a7cf50a25
+Nonce: 25021
+Time: 0:00:00.158036
 
-Data: Alex Nguyen
-Previous hash: ffffc01f4853d3138074aab36739088f75cc9e4c1834a8b592e1f915905efc47
-Hash: ffff8593a8080910d86a3c86b36c68f13704c03121194896c8400cbddc099489
-Nonce: 6956
-Time: 0:00:00.011003
+Data: [{'from': 'maria', 'to': 'ored95', 'amount': 200}, {'from': 'ored95', 'to': 'kate', 'amount': 300}, {'from': '', 'to': 'ored95', 'amount': 300}]
+Previous hash: ffffc4ea892542257e22490550cc9e190f95029071f768d0c635020a7cf50a25
+Hash: ffff173129d7d7cc7d75e0e9bdf9b5f15955dab3222f25f65cd86c3298c7ea59
+Nonce: 28207
+Time: 0:00:00.150033
 
-Data: BMSTU iu7
-Previous hash: ffff8593a8080910d86a3c86b36c68f13704c03121194896c8400cbddc099489
-Hash: ffff92e0886b27d4a198d2a8b6b97c55964e22c1ebef39b174f6637baaf2e99b
-Nonce: 161230
-Time: 0:00:00.257066
-
-Hacked? True
--------------------------------------------------
-
-Data: Genesis block
-Previous hash: 
-Hash: 29b4f27c76066fc0c3b4ef7617216202930ed69e99e42aa94da0565254852350
-Nonce: 0
-Time: 0
-
-Data: Binh
-Previous hash: 29b4f27c76066fc0c3b4ef7617216202930ed69e99e42aa94da0565254852350
-Hash: ffff66313811a90d28d212e5619a0ab4af579c5deba32ad85a43437cb7245446
-Nonce: 23923
-Time: 0:00:00.232051
-
-Data: Alex Nguyen
-Previous hash: ffff66313811a90d28d212e5619a0ab4af579c5deba32ad85a43437cb7245446
-Hash: ffff8ede1aa961a163d2f7660c044d11af8fac0a85442a3964a71a98c9e7d35d
-Nonce: 7842
-Time: 0:00:00.011003
-
-Data: BMSTU iu7
-Previous hash: ffff8ede1aa961a163d2f7660c044d11af8fac0a85442a3964a71a98c9e7d35d
-Hash: ffff6bafaaaa501bf7b92ab0fe55f11aa2ace36e6fb531cfe0d6bdc30a4a7803
-Nonce: 60924
-Time: 0:00:00.257066
+Wallet address [ored95]'s balance: 900 ORD
