@@ -1,5 +1,6 @@
 from block.block import ORD
 from block.hash import hash
+from transaction.transaction import Transaction
 from datetime import datetime
 
 class ORDchain:
@@ -32,6 +33,11 @@ class ORDchain:
         """_summary_
             Add a new block to chain
         """
+        
+        "Gift for one validator per successful block addition"
+        gift = Transaction({"from": "", "to": self.owner, "amount": 300})
+        data += gift.details
+
         block = ORD(data)
         block.prev_hash = self.chain[-1].hash
         
@@ -46,7 +52,7 @@ class ORDchain:
             block.hash = hash(block)
         block.total_time = datetime.now() - starting_time
         
-        self.chain.append(block)
+        self.chain.append(block)    # final job
     
     def proof_of_work(self, block):
         """_summary_
@@ -82,3 +88,18 @@ class ORDchain:
             if prev_block.hash != current_block.prev_hash:
                 return False
         return True
+
+
+    def get_balance(self, wallet_addr):
+        """_summary_
+            Get balance from wallet_addr
+        """
+        balance = 0
+        for block in self.chain:
+            if type(block.data) == list:
+                for transaction in block.data:
+                    if transaction["from"] == wallet_addr:
+                        balance -= transaction["amount"]
+                    if transaction["to"] == wallet_addr:
+                        balance += transaction["amount"]
+        return balance
