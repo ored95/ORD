@@ -1,0 +1,8 @@
+1. Change transaction datatype
+2. Validate transaction by asymetric encryption
+3. Synchronize between validators
+
+Watch more:
+1. SOL
+2. dApp
+3. https://youtu.be/gUzyi06lGO4
