@@ -10,12 +10,35 @@ Data: [{'from': 'jame', 'to': 'ored95', 'amount': 1000}, {'from': 'ored95', 'to'
 Previous hash: 2f735efd0acc82cdeaa54a7ccc69ec93585b5fd2322cfabdb34882c8afd67763
 Hash: ffffc4ea892542257e22490550cc9e190f95029071f768d0c635020a7cf50a25
 Nonce: 25021
-Time: 0:00:00.158036
+Time: 0:00:00.164592
 
 Data: [{'from': 'maria', 'to': 'ored95', 'amount': 200}, {'from': 'ored95', 'to': 'kate', 'amount': 300}, {'from': '', 'to': 'ored95', 'amount': 300}]
 Previous hash: ffffc4ea892542257e22490550cc9e190f95029071f768d0c635020a7cf50a25
 Hash: ffff173129d7d7cc7d75e0e9bdf9b5f15955dab3222f25f65cd86c3298c7ea59
 Nonce: 28207
-Time: 0:00:00.150033
+Time: 0:00:00.156396
 
-Wallet address [ored95]'s balance: 900 ORD
+Balance of owner [ored95]: 900 ORD
+--------------------------------
+!!! Hacked status: True
+--------------------------------
+
+Data: Genesis block
+Previous hash: 
+Hash: 2f735efd0acc82cdeaa54a7ccc69ec93585b5fd2322cfabdb34882c8afd67763
+Nonce: 0
+Time: 0
+
+Data: [{'from': 'jame', 'to': 'ored95', 'amount': 2000}, {'from': 'ored95', 'to': 'alex', 'amount': 100}, {'from': 'ored95', 'to': 'john wick', 'amount': 500}, {'from': '', 'to': 'ored95', 'amount': 300}]
+Previous hash: 2f735efd0acc82cdeaa54a7ccc69ec93585b5fd2322cfabdb34882c8afd67763
+Hash: ffff49eae26f0bd2cb088f99a17cd24784272249f8caec6c5dc04753afd52548
+Nonce: 172857
+Time: 0:00:00.164592
+
+Data: [{'from': 'maria', 'to': 'ored95', 'amount': 200}, {'from': 'ored95', 'to': 'kate', 'amount': 300}, {'from': '', 'to': 'ored95', 'amount': 300}]
+Previous hash: ffff49eae26f0bd2cb088f99a17cd24784272249f8caec6c5dc04753afd52548
+Hash: ffffcc4ba5ee5826be36181a8ab938f59ea92e55f893a547a62abefe6802030f
+Nonce: 136378
+Time: 0:00:00.156396
+
+Balance of owner [ored95]: 1900 ORD
